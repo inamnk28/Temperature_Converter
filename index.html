@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://kit.fontawesome.com/850ca6a355.js"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="./assets/converter.css">
+    <title>JavaScript-Temperature-Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="converter">
+            <div class="heading">
+                <h1>Temperature Converter</h1>
+                <br>
+            </div>
+            <div class="conversion">
+                <div class="celsius">
+                    <label for="celsius">Temperature in °C:</label>
+                    <input type="number" id="celsius">
+                </div>
+                <div class="farenheit">
+                    <label for="farenheit">Temperature in °F:</label>
+                    <input type="number" id="farenheit">
+                </div>
+            </div>
+            <div class="buttons">
+                <button onclick="convert()">Convert</button>
+                <button onclick="clearAll()">All Clear</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script/converter.js"></script>
+</body>
+</html>
